@@ -1,6 +1,7 @@
-# Projet de fin de Formation POEI
+# 
+    Projet de fin de Formation POEI
 
-## Conception:
+## Conception des Tests Web Automatisés avec Cypress sur le site Open Cruise  
 
 ### Besions:
 
@@ -36,9 +37,7 @@ Voici quelques cas de test que je vais essayer d'automatiser dans le cadre de se
 
 ---
 
-## Tableaux des tests
-
-TEST TYPE : Test case Positive / Test case Negative / Scenario E2E
+### Tableaux des tests:
 
 | ID TEST  | NOM TEST                         | DESCRIPTION / BUT                                                          | TYPE TEST    | TEST TAG   | PREREQUIS          | ASSERTIONS                                                                              |
 | -------- | -------------------------------- | -------------------------------------------------------------------------- | ------------ | ---------- | ------------------ | --------------------------------------------------------------------------------------- |
