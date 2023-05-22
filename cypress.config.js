@@ -14,20 +14,23 @@ module.exports = defineConfig({
     embeddedScreenshots: true,
     inlineAssets: true, //Adds the asserts inline
   },
+ 
   
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
       on('file:preprocessor', cucumber());
       screenshotOnRunFailure = true;
+      trashAssetsBeforeRuns =	true;
       require("cypress-mochawesome-reporter/plugin")(on);
     },
-    //specPattern: "cypress/e2e/**.feature",
+    specPattern:["**/*.cy.js","**/*.feature"],
+    
     env: {
       url:
         process.env.CYPRESS_ENV_URL ||
-        "http://opencruise-ok.sogeti-center.cloud",
-      testFiles: "**/*.{feature,features,js,cy.js}"
+        "http://opencruise-ok.sogeti-center.cloud"
+      
     },
   },
 });

@@ -39,7 +39,7 @@ describe("TEST WEB OPEN CRUISE", () => {
       cy.wait(2000);
       const loginStep = new LoginStep();
       cy.log(`Se Connecter en tant que Admin`);
-      loginStep.setLogin(Cypress.env("username"),Cypress.env("password")); // Log in as admin
+      loginStep.setLogin(Cypress.env("USERNAME"),Cypress.env("PASSWORD"));  // Log in as admin
       const stepGestionCompte = new StepGestionCompte();
       stepGestionCompte.ActiveCompte(data); // Activate the account
       cy.xpath(`//tr[contains(.,'${data.username}')]`).screenshot(); // Take a screenshot
@@ -64,7 +64,7 @@ describe("TEST WEB OPEN CRUISE", () => {
       cy.wait(2000);
       const loginStep = new LoginStep();
       cy.log(`Se Connecter en tant que Admin`);
-      loginStep.setLogin(Cypress.env("username"),Cypress.env("password")); // Log in as admin
+      loginStep.setLogin(Cypress.env("USERNAME"),Cypress.env("PASSWORD"));  // Log in as admin
       const stepGestionCompte = new StepGestionCompte();
       stepGestionCompte.ActiveCompte(data); // Activate the account
       cy.xpath(`//tr[contains(.,'${data.username}')]`).screenshot(); // Take a screenshot
