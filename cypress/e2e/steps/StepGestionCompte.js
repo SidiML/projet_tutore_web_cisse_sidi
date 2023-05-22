@@ -1,11 +1,14 @@
-import { PageGestionCompte } from '../page-objects/PageGestionCompte';
+import PageGestionCompte from "../pages/PageGestionCompte";
 
-describe('Tests', () => {
-  it('Activer Compte', (compte) => {
-    cy.log(`Activer Compte ${compte}`);
-    PageGestionCompte.accessConfig();
-    PageGestionCompte.accessUsers();
-    PageGestionCompte.accessUsersList();
-    PageGestionCompte.activateAccount(compte.username);
-  });
-});
+const pageGestionCompte = new PageGestionCompte();
+
+class StepGestionCompte {
+  ActiveCompte(data) {
+    pageGestionCompte.accesConfig(); // Accède à la configuration
+    pageGestionCompte.accesUsers(); // Accède à la liste des utilisateurs
+    pageGestionCompte.accesUsersList(); // Accède à la liste des utilisateurs
+    pageGestionCompte.activationAccount(data); // Active le compte avec les données fournies
+  }
+}
+
+export default StepGestionCompte;

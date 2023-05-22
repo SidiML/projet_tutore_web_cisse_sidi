@@ -1,7 +1,6 @@
-# 
     Projet de fin de Formation POEI
 
-## Conception des Tests Web Automatisés avec Cypress sur le site Open Cruise  
+## Conception des Tests Web Automatisés avec Cypress sur le site Open Cruise
 
 ### Besions:
 
@@ -43,7 +42,7 @@ Voici quelques cas de test que je vais essayer d'automatiser dans le cadre de se
 | -------- | -------------------------------- | -------------------------------------------------------------------------- | ------------ | ---------- | ------------------ | --------------------------------------------------------------------------------------- |
 | Test-001 | Connexion Admin                  | Se connecter avec un compte admin valide                                  | Test positif | conn-test  | Identifiant valide | Page-d'acceuil avec le message:<br />"Bienvenue Admin Test"                            |
 | Test-002 | Compte invalide                  | Se connecter avec un compte invalide et<br />verifier le message d'erreur. | Test positif | conn-test  | Aller sur l'url    | Message d'erreur en rouge<br />avec la phrase:<br />"Mot de passe ou compte invalide""" |
-| Test-003 | Inscription Compte Particulier   | Création d'un compte Particulier                                          | Test positif | inscr-test | Aller r l'url      | Page-d'acceuil avec le message:<br />"Bienvenue Nom Prenom"                            |
+| Test-003 | Inscription Compte Particulier   | Création d'un compte Particulier                                          | Test positif | inscr-test | Aller sur l'url    | Page-d'acceuil avec le message:<br />"Bienvenue Nom Prenom"                            |
 | Test-004 | Inscription Compte Professionnel | Création d'un compte Professionnel                                        | Test positif | inscr-test | Aller sur l'url    | Page-d'acceuil avec le message:<br />"Bienvenue Nom Prenom"                            |
 | Test-005 | Inscription Compte Professionnel | Création d'un compte Professionnel avec un<br />Assistant                 | Test positif | inscr-test | Aller sur l'url    | Page-d'acceuil avec le message:<br />"Bienvenue Nom Prenom"                            |
 | Test-006 | Inscription Compte Particulier   | Création d'un compte Particulier/Email existant                           | Test Negatif | inscr_test | Aller sur l'url    |                                                                                         |
