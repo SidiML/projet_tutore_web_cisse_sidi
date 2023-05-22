@@ -13,7 +13,8 @@
     "openby:chrome": "cypress run --e2e --browser chrome",
     "openby:firefox": "cypress run --e2e --browser firefox",
     "openby:electron": "cypress run --e2e --browser electron",
-    "cypress:cucumber": "cypress run --spec cypress/e2e/tests/OpenCruise.feature"
+    "cypress:cucumber": "cypress run --spec cypress/e2e/cyp_cucumber/OpenCruise.feature",
+    "cypress": "cypress run --spec cypress/e2e/tests/OpenCruise.cy.js"
   },
   "author": "Sidi",
   "devDependencies": {
@@ -26,11 +27,18 @@
   "dependencies": {
     "@cypress/xpath": "^2.0.3",
     "@faker-js/faker": "^8.0.1",
+    "cucumber-html-reporter": "^7.1.0",
     "cypress-wait-until": "^1.7.2"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
-    "step_definitions": "cypress/e2e/cyp_cucumber"
+    "step_definitions": "cypress/e2e/cyp_cucumber",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
   },
   "directories": {
     "doc": "doc"

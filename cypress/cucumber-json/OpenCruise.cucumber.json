@@ -1,0 +1,307 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test Web Open Cruise",
+    "line": 1,
+    "id": "test-web-open-cruise",
+    "tags": [],
+    "uri": "OpenCruise.feature",
+    "elements": [
+      {
+        "id": "test-web-open-cruise;se-connecter-compte-valide",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Se Connecter Compte Valide",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the application",
+            "result": {
+              "status": "passed",
+              "duration": 849000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I connect with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 676000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the welcome messagep",
+            "result": {
+              "status": "passed",
+              "duration": 354000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I take a screenshot",
+            "result": {
+              "status": "passed",
+              "duration": 430000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-web-open-cruise;se-connecter-compte-invalide",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Se connecter Compte invalide",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the application",
+            "result": {
+              "status": "passed",
+              "duration": 428000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I connect with invalid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1585000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see an error message1",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-web-open-cruise;inscription-compte-particulier",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Inscription Compte Particulier",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the application",
+            "result": {
+              "status": "passed",
+              "duration": 258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I have created a Particulier account",
+            "result": {
+              "status": "passed",
+              "duration": 6757000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I connect as Admin",
+            "result": {
+              "status": "passed",
+              "duration": 854000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I activate the account",
+            "result": {
+              "status": "passed",
+              "duration": 10109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I logout",
+            "result": {
+              "status": "passed",
+              "duration": 4843000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I login with the created account",
+            "result": {
+              "status": "passed",
+              "duration": 4179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should see the welcome message",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-web-open-cruise;inscription-compte-professionnel",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Inscription Compte Professionnel",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the application",
+            "result": {
+              "status": "passed",
+              "duration": 324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I have created a Professionnel account",
+            "result": {
+              "status": "passed",
+              "duration": 6361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I connect as Admin",
+            "result": {
+              "status": "passed",
+              "duration": 790000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I activate the accountP",
+            "result": {
+              "status": "passed",
+              "duration": 9467000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I logout",
+            "result": {
+              "status": "passed",
+              "duration": 4366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I login with the created accountP",
+            "result": {
+              "status": "passed",
+              "duration": 3999000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I should see the welcome messageP",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-web-open-cruise;inscription-compte-particulier-avec-compte-existant",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Inscription Compte Particulier Avec Compte Existant",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the application",
+            "result": {
+              "status": "passed",
+              "duration": 315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I have created a Particulier account Existant",
+            "result": {
+              "status": "passed",
+              "duration": 6486000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I should see an error message3",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `//div[@role=\"alertdialog\"]`, but never found it.\n    at LoginPage.checkErrorMessage (cypress/e2e/pages/LoginPage.js:31:40)\n    at LoginStep.CheckFailMessage (cypress/e2e/steps/LoginStep.js:17:14)\n    at Context.eval (cypress/e2e/cyp_cucumber/OpenCruise/OpenCruise.js:128:12)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
