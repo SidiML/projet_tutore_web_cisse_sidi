@@ -52,18 +52,18 @@ https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf
 **Faire votre TODO liste**
 
 - [X] Préparer la liste des tests
-- [ ] Spécifier vos tests
-- [ ] Préparer vos besoins en terme de données de test
-- [ ] Comprendre à quoi serviront vos 2 environnements de test Open Cruise
-- [ ] Préparer votre socle d'automatisation
-- [ ] Documenter votre socle d'automatisation
-- [ ] Réfléchir à la conception de vos tests automatisés
-- [ ] Développer vos tests automatisés
-- [ ] Générer une analyse statique de votre code
-- [ ] Exécuter vos tests manuels et automatisés
-- [ ] Analyser vos résultats
-- [ ] Générer un rapport d'exécution de vos tests
-- [ ] Créer des anomalies liés à l'application Open Cruise
+- [X] Spécifier vos tests
+- [X] Préparer vos besoins en terme de données de test
+- [X] Comprendre à quoi serviront vos 2 environnements de test Open Cruise
+- [X] Préparer votre socle d'automatisation
+- [X] Documenter votre socle d'automatisation
+- [X] Réfléchir à la conception de vos tests automatisés
+- [X] Développer vos tests automatisés
+- [X] Générer une analyse statique de votre code
+- [X] Exécuter vos tests manuels et automatisés
+- [X] Analyser vos résultats
+- [X] Générer un rapport d'exécution de vos tests
+- [X] Créer des anomalies liés à l'application Open Cruise
 
 **Faire un tableau**
 MARKDOWN https://www.tablesgenerator.com/markdown_tables

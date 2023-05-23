@@ -6,8 +6,8 @@
   "scripts": {
     "test": "cypress run",
     "open": "cypress open",
-    "env:ok": "CYPRESS_ENV_URL=http://opencruise-ok.sogeti-center.cloud npx cypress run",
-    "env:ko": "CYPRESS_ENV_URL=http://opencruise-ko.sogeti-center.cloud npx cypress run",
+    "env:ok": "CYPRESS_ENV_URL=http://opencruise-ok.sogeti-center.cloud npx cypress open",
+    "env:ko": "CYPRESS_ENV_URL=http://opencruise-ko.sogeti-center.cloud cypress run --spec cypress/e2e/tests/OpenCruise.cy.js",
     "test:smoke": "cypress run --env grepTags='@smoke'",
     "test:regression": "cypress run --env grepTags='@regression'",
     "openby:chrome": "cypress run --e2e --browser chrome",

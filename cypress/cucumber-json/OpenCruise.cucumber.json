@@ -27,7 +27,7 @@
             "name": "I visit the application",
             "result": {
               "status": "passed",
-              "duration": 849000000
+              "duration": 746000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "I connect with valid credentials",
             "result": {
               "status": "passed",
-              "duration": 676000000
+              "duration": 683000000
             }
           },
           {
@@ -46,8 +46,9 @@
             "line": 9,
             "name": "I should see the welcome messagep",
             "result": {
-              "status": "passed",
-              "duration": 354000000
+              "status": "failed",
+              "duration": 4367000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `//button[@id=\"dropdownMenu2\"]`, but never found it.\n    at LoginPage.checkConnection (cypress/e2e/pages/LoginPage.js:27:39)\n    at LoginStep.checkMessage (cypress/e2e/steps/LoginStep.js:13:14)\n    at Context.eval (cypress/e2e/cyp_cucumber/OpenCruise/OpenCruise.js:17:12)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -56,8 +57,7 @@
             "line": 10,
             "name": "I take a screenshot",
             "result": {
-              "status": "passed",
-              "duration": 430000000
+              "status": "skipped"
             }
           }
         ]
@@ -77,7 +77,7 @@
             "name": "I visit the application",
             "result": {
               "status": "passed",
-              "duration": 428000000
+              "duration": 329000000
             }
           },
           {
@@ -87,7 +87,7 @@
             "name": "I connect with invalid credentials",
             "result": {
               "status": "passed",
-              "duration": 1585000000
+              "duration": 1555000000
             }
           },
           {
@@ -97,7 +97,7 @@
             "name": "I should see an error message1",
             "result": {
               "status": "passed",
-              "duration": 122000000
+              "duration": 161000000
             }
           }
         ]
@@ -117,7 +117,7 @@
             "name": "I visit the application",
             "result": {
               "status": "passed",
-              "duration": 258000000
+              "duration": 272000000
             }
           },
           {
@@ -127,7 +127,7 @@
             "name": "I have created a Particulier account",
             "result": {
               "status": "passed",
-              "duration": 6757000000
+              "duration": 6901000000
             }
           },
           {
@@ -136,8 +136,8 @@
             "line": 18,
             "name": "I connect as Admin",
             "result": {
-              "status": "passed",
-              "duration": 854000000
+              "status": "failed",
+              "error_message": "CypressError: `cy.type()` can only be called on a single element. Your subject contained 2 elements.\n\nhttps://on.cypress.io/type\n    at Context.type (http://opencruise-ko.sogeti-center.cloud/__cypress/runner/cypress_runner.js:143747:76)\n    at wrapped (http://opencruise-ko.sogeti-center.cloud/__cypress/runner/cypress_runner.js:160610:19)\nFrom Your Spec Code:\n    at LoginPage.setUsername (cypress/e2e/pages/LoginPage.js:15:42)\n    at LoginStep.setLogin (cypress/e2e/steps/LoginStep.js:7:14)\n    at Context.eval (cypress/e2e/cyp_cucumber/OpenCruise/OpenCruise.js:57:12)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -146,8 +146,7 @@
             "line": 19,
             "name": "I activate the account",
             "result": {
-              "status": "passed",
-              "duration": 10109000000
+              "status": "skipped"
             }
           },
           {
@@ -156,8 +155,7 @@
             "line": 20,
             "name": "I logout",
             "result": {
-              "status": "passed",
-              "duration": 4843000000
+              "status": "skipped"
             }
           },
           {
@@ -166,8 +164,7 @@
             "line": 21,
             "name": "I login with the created account",
             "result": {
-              "status": "passed",
-              "duration": 4179000000
+              "status": "skipped"
             }
           },
           {
@@ -176,8 +173,7 @@
             "line": 22,
             "name": "I should see the welcome message",
             "result": {
-              "status": "passed",
-              "duration": 32000000
+              "status": "skipped"
             }
           }
         ]
@@ -197,7 +193,7 @@
             "name": "I visit the application",
             "result": {
               "status": "passed",
-              "duration": 324000000
+              "duration": 351000000
             }
           },
           {
@@ -207,7 +203,7 @@
             "name": "I have created a Professionnel account",
             "result": {
               "status": "passed",
-              "duration": 6361000000
+              "duration": 6362000000
             }
           },
           {
@@ -216,8 +212,8 @@
             "line": 26,
             "name": "I connect as Admin",
             "result": {
-              "status": "passed",
-              "duration": 790000000
+              "status": "failed",
+              "error_message": "CypressError: `cy.type()` can only be called on a single element. Your subject contained 2 elements.\n\nhttps://on.cypress.io/type\n    at Context.type (http://opencruise-ko.sogeti-center.cloud/__cypress/runner/cypress_runner.js:143747:76)\n    at wrapped (http://opencruise-ko.sogeti-center.cloud/__cypress/runner/cypress_runner.js:160610:19)\nFrom Your Spec Code:\n    at LoginPage.setUsername (cypress/e2e/pages/LoginPage.js:15:42)\n    at LoginStep.setLogin (cypress/e2e/steps/LoginStep.js:7:14)\n    at Context.eval (cypress/e2e/cyp_cucumber/OpenCruise/OpenCruise.js:57:12)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -226,8 +222,7 @@
             "line": 27,
             "name": "I activate the accountP",
             "result": {
-              "status": "passed",
-              "duration": 9467000000
+              "status": "skipped"
             }
           },
           {
@@ -236,8 +231,7 @@
             "line": 28,
             "name": "I logout",
             "result": {
-              "status": "passed",
-              "duration": 4366000000
+              "status": "skipped"
             }
           },
           {
@@ -246,8 +240,7 @@
             "line": 29,
             "name": "I login with the created accountP",
             "result": {
-              "status": "passed",
-              "duration": 3999000000
+              "status": "skipped"
             }
           },
           {
@@ -256,8 +249,7 @@
             "line": 30,
             "name": "I should see the welcome messageP",
             "result": {
-              "status": "passed",
-              "duration": 30000000
+              "status": "skipped"
             }
           }
         ]
@@ -277,7 +269,7 @@
             "name": "I visit the application",
             "result": {
               "status": "passed",
-              "duration": 315000000
+              "duration": 381000000
             }
           },
           {
